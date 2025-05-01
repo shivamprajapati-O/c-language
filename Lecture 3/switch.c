@@ -14,12 +14,12 @@ int ch , a ;
 
 
         case 1:
-        printf("1. burger \n");
-        printf("2. Pizza \n");
-        printf("3. Cold drink \n");
+        printf("Press 1 for burger \n");
+        printf("Press 2 for Pizza \n");
+        printf("Press 3 for Cold drink \n");
 
-        default:
-        printf("Thank you ! ");
+    
+        
 
         
         scanf("%d",&a);
@@ -36,7 +36,7 @@ int ch , a ;
             printf("ordered cold drink \n");
         
         default:
-        printf("Invalid Choice");
+        
             break;
         }
         
