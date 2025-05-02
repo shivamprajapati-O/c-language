@@ -7,7 +7,7 @@ int main()
     printf("Enter a positive number \n");
     scanf("%d",&num);
 
-    printf("Sum = ");
+    printf(" Factorial= ");
     while (i<=num)
     {
         sum = sum * i ;
